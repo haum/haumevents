@@ -1,3 +1,6 @@
 [submodule "talksplanning"]
 	path = talksplanning
 	url = https://github.com/haum/talksplanning
+[submodule "eventsplanning"]
+	path = eventsplanning
+	url = git@github.com:haum/eventsplanning

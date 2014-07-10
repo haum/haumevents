@@ -1,4 +1,4 @@
-# Django settings for haumtalks project.
+# Django settings for haumevents project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -101,16 +101,16 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'haumtalks.urls'
+ROOT_URLCONF = 'haumevents.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'haumtalks.wsgi.application'
+WSGI_APPLICATION = 'haumevents.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/home/matael/workspace/hackerspace/haumtalks/talksplanning/templates',
+    '/home/matael/workspace/hackerspace/haumevents/talksplanning/templates',
 )
 
 DEFAULT_APPS = (
@@ -129,7 +129,7 @@ TP_APPS = (
 
 LOCAL_APPS = (
     'talksplanning',
-    'haumtalks',
+    'haumevents',
 )
 
 INSTALLED_APPS = DEFAULT_APPS + TP_APPS + LOCAL_APPS
